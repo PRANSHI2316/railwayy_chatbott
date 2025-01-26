@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Train Finder</h1>
+    <div class="form-container">
+      <label for="source">Source Station:</label>
+      <select id="source">
+        <option value="">Select source station </option>
+        <option value="New York">New York</option>
+  <option value="Chicago">Chicago</option>
+  <option value="San Francisco">San Francisco</option>
+      </select>
+
+      <label for="destination">Destination Station:</label>
+      <select id="destination">
+        <option value="">Select destination station</option>
+        <option value="Washington DC">Washington DC</option>
+  <option value="Los Angeles">Los Angeles</option>
+  <option value="Seattle">Seattle</option>
+      </select>
+
+      <button id="search-btn">Search Trains</button>
+    </div>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
